@@ -1,0 +1,45 @@
+body { 
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    border: 3px dashed grey;
+}
+
+/* .title-wrap {
+    height: 500px;
+    width: 750px;
+} */
+
+.companyDetails{
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 2vw;
+}
+
+.closing{
+    font-size: 1vw;
+}
+
+#userConfirm{
+    font-size: medium;
+    display: none;
+}
+
+/* media query */
+/* screen sizes 400px - 500px width */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    
+.companyName-1{
+    color: red;
+    font-size: 5vw;
+    text-align: center;
+    height: 75%;
+    width: 75%;
+    border: 3px dashed purple;
+}
+
+}

@@ -1,0 +1,118 @@
+<head>
+    <title>Car For Sale</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+<!-- <div class="title-wrap"> -->
+    <h1 class="companyName-1" ><i>H & E Auto Sales</i> <br></h1>
+<!-- </div> -->
+
+<h2 class="companyDetails">2870 US HWY 231<br>
+    (334)478-4102
+</h2>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<p class="paragraph">This is a REAL CAR that you can <strong>ACTUALLY BUY!</strong><br> 
+    <br>ON SALE <strong>RIGHT NOW</strong> is this 2016 Chrysler 200 with ONLY 99000 MILES,<br> 
+    <br><strong>BUT IT LOOKS BRAND NEW!</strong>
+</p>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<img src="\assets\images\car_front.JPG" alt="Car from Front" style="max-width:50%;height:auto;">
+<img src="\assets\images\car_rear.JPG" alt="Car from Rear" style="max-width:50%;height:auto;">
+<img src="\assets\images\car_front_interior.JPG" alt="Car from Front Interior" style="max-width:50%;height:auto;">
+<img src="\assets\images\car_rear_interior.JPG" alt="Car from Rear Interior" style="max-width:50%;height:auto;">
+<img src="\assets\images\car_console.JPG" alt="Console of Car" style="max-width:50%;height:auto;">
+<img src="\assets\images\car_dash.JPG" alt="Dash Panel of Car" style="max-width:50%;height:auto;">
+
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<p class="paragraph">NO JOKE this car is ON SALE for <strong>ONLY $7800 + TAX!</strong>*<br> 
+    <br>DON'T WAIT, because once this car is sold, <strong>IT WON'T COME BACK!</strong><br> 
+    <br>CALL TODAY at the number above to schedule your visit and test drive, GUARANTEED to be SMOOTHLY RUNNING!<br> 
+    <br><strong>NO PROBLEMS WHATSOEVER!</strong>
+</p>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<p class="formDetails">Input your information below to get informed when another car is for sale, if you'd like.</p> 
+
+
+<form>
+    <label for="name">Name:</label><br>
+    <input matInput type="text" name="name" id="name" [(ngModel)]="userName" placeholder="John Smith"><br>
+    
+    <label for="email">Email:</label><br>
+    <input matInput type="text" name="email" id="email" [(ngModel)]="userEmail" placeholder="example@example.com"><br>
+   
+    <label for="phone">Phone Number:</label><br>
+    <input matInput type="text" name="phone" id="phone" [(ngModel)]="userPhone" placeholder="123-456-789"><br>
+
+    <br><button type="button" (click)="submit();">Submit</button>
+</form>
+
+<div [(ngModel)]="userConfirm" id="userConfirm">
+The information you have entered is <br>
+Name: <var>userName</var>, <br>
+Email: <var>userEmail</var>, <br>
+Phone Number: <var>userPhone</var>
+</div>
+
+<!-- <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" formControlName="userName" placeholder="John Smith"><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" formControlName="userEmail" placeholder="example@example.com"><br>
+    
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" formControlName="userPhone" placeholder="123-456-789"><br>
+    
+    <br><button type="button" (click)="submit();">Submit</button>
+</form> -->
+
+<div>=======================================</div>
+
+<!-- <form>
+    <div class="form-group">
+        <label for="userName">Name:</label><br>
+        <input ngModel name="userName" #userName="ngModel" id="userName" type="text" class="form-control"><br>
+    </div>
+    <div class="form-group">
+        <label for="userEmail">Email:</label><br>
+        <input ngModel name="userEmail" #userEmail="ngModel" id="userEmail" type="text" class="form-control"><br>
+    </div>
+    <div class="form-group">
+        <label for="userPhone">Phone Number:</label><br>
+        <input ngModel name="userPhone" #userPhone="ngModel" id="userPhone" type="text" class="form-control"><br>
+    </div>
+    <button class="btn btn-primary" (click)="submit(userName)" (click)="submit(userEmail)" (click)="submit(userPhone)">Submit</button>
+</form> -->
+
+<!-- <h1>{{userName.value}}</h1> -->
+
+<!-- <p><input type="text" id="username" name="username"></p>
+<h1> {{userName}}</h1>
+
+<button type="button" (click)="clickme()">Clickme</button> -->
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<br>
+
+<p class="closing">*we do not finance, get a loan or something</p>
+
+<!-- <script>
+    function submit() {
+        var userName = document.getElementById("name")
+    }
+  
+  var userEmail = document.getElementById("email")
+  var userPhone = document.getElementById("phone")
+</script> -->
+</body>
