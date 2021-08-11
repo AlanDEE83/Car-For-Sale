@@ -46,12 +46,13 @@ export class LandingPageComponent implements OnInit {
      console.log(this.userEmail);
      console.log(this.userPhone);
 
-    //  let x = this.userConfirm
-    //  if (x.style.display === "none") {
-    //  x.style.display = "block";
-    //  } else {
-    //  x.style.display = "none";
-    //  }
+    // let x = this.userConfirm
+    // if (x.style.display === "none") {
+    // x.style.display = "block";
+    // } else {
+    // x.style.display = "none";
+    // }
+
     // console.log("Form properties are:",this.AlanForm.value);
     // console.log("UserName1 is: ",this.userName1.value)
     // console.log("userEmail is:",this.AlanForm.value);

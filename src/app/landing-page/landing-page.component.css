@@ -43,3 +43,53 @@ body {
 }
 
 }
+
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 600%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite;
+}
+#slider figure img {
+    width: 16.66%;
+    float: left;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    16% {
+        left: 0;
+    }
+    21% {
+        left: -100%;
+    }
+    41% {
+        left: -100%;
+    }
+    46% {
+        left: -200%;
+    }
+    66% {
+        left: -200%;
+    }
+    71% {
+        left: -300%;
+    }
+    76% {
+        left: -300%;
+    }
+    86% {
+        left: -400%;
+    }
+    91% {
+        left: -400%;
+    }
+    100% {
+        left: -500%;
+    }
+}
